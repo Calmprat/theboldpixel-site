@@ -6820,6 +6820,15 @@ header .navbar [class*=col-] .navbar-nav .nav-item {
   -ms-flex-align: center;
   align-items: center;
 }
+.navbar-brand img.default-logo,
+.navbar-brand img.alt-logo,
+.navbar-brand img.mobile-logo {
+    height: 80px !important;
+    max-height: none !important;
+    width: auto !important;
+    object-fit: contain;
+}
+
 header .navbar [class*=col-] .navbar-nav .nav-item a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7033,7 +7042,7 @@ header .navbar-brand .alt-logo, header .navbar-brand .mobile-logo {
   width: 0;
 }
 header .navbar-brand img {
-  max-height: 46px;
+  max-height: 75px;
 }
 header .header-top-bar {
   position: fixed;
